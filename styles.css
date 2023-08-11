@@ -10,27 +10,97 @@ body {
   height: 100vh;
 }
 .left {
-    color:blue;
-    background-color: aqua;
-    width: 43vw;
+    
+    width: 35vw;
     height: 100vh;
   float: left;
+  
     
 }
 .top-right{
-  background-color: gray; 
+  background-color: rgb(38, 39, 33); 
   height: 33vh;
+  width: 65vw;
+  float: right;
+  font-family: 'Oswald', sans-serif;
 }
 
 .middle-right{
-  
+  color:azure;
   height: 40vh;
-    background-color: yellow;
+    background-color: rgb(70, 70, 58);
+    float: right;
+    width: 65vw;
+    padding-top: 3em;
+    
 }
 
-img {
-  width: 100%;
+.backgroundpic {
+  width: 35vw;
     height: 100%;
+    position: absolute;
+    float: left;
+    
+}
+
+.bottom {
+  height: 40vh;
+    background-color: rgb(38, 39, 33);
+    float: right;
+    width: 65vw;
 }
 /* form styles*/
+  .overlay {
+    width: 35vw;
+    top: 80vh;
+    position:relative;
+    opacity: 65%;
     
+  }  
+
+  .topText{
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+  }
+    
+  label, input {
+    display: block;
+    margin-top: .5em;
+    font-size: large;
+    
+  }
+  .formRight {
+    float: right;
+    margin-right: 10em;
+  }
+  .formLeft {
+    float: left;
+    margin-left: 10em;
+  }
+  input {
+    border-radius: 8px;
+  }
+  input:hover {
+    background-color: rgb(11, 159, 125);
+  }
+  .button {
+    font-size:35px;
+    border-radius: 12px;
+    display: grid;
+    justify-content: center;
+     background-color: gray;
+     margin-top: 1em;
+     margin-left:33%;
+    
+  }
+  .button:hover{
+    background-color: rgb(71, 71, 52);
+  }
+  .link{
+    color: red;
+  }
+  .login{
+    color:aliceblue;
+    margin-left: 36%;
+  }

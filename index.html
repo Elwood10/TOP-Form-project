@@ -4,16 +4,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
 	<script src="java.js" defer></script>
-    <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <title>Sign Up Form</title>
 </head>
 <body>
   <div class="container">
 <div class="left">
-  <img src="https://www.quirkyscience.com/wp-content/uploads/2013/11/Suit-of-Armor-Wikimedia-Commons-CCA-Share-Alike-3.0-Unported-by-Anthonyjonker23.jpg" alt="knight">
+  <img class="backgroundpic" src="https://www.quirkyscience.com/wp-content/uploads/2013/11/Suit-of-Armor-Wikimedia-Commons-CCA-Share-Alike-3.0-Unported-by-Anthonyjonker23.jpg" alt="knight">-
+  <div>
+  <img class="overlay" src="https://www.sacredheartlg.org/wp-content/uploads/2015/12/Knights-of-Columbus-Banner.jpg"alt="logo">
+  </div>
 </div>
-  <div class="top-right">top</div>
-  <div class="middle-right">middle</div>
-  <div class="bottom">bottom</div>
+  <div class="top-right">
+    <h2 class="topText">Welcome to the KOC sign up form.<br>This is your chance to wield your spiritual and financial power.<br>Enter the information below to begin your service.<br><em>You know you want to</em></h2>
+  </div>
+  <div class="middle-right">
+    <form method="" action="">
+    
+      <div class="formLeft">
+         <label for="first-name">First Name:<input id="first-name" name="first-name" type='text' required/></label>
+         <label for="last-name">Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+         <label for="email">Email:<input id="email" name="email" type="email" required/></label>
+         </div>
+         <div class="formRight">
+         <label for="phone-number">Phone Number:<input id="phone-number" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          required/><small>Format: 123-456-7890</small></label>
+         <label for="password">Password:<input id="password" name="password" type="password" required/></label>
+         <label for="confirm-password">Confirm Password:<input id="confirm-password" name="confirm-password" type="password" required/></label>
+         </div>
+        </form>
+  </div>
+  
+  <div class="bottom"> 
+    <button class="button">Create Account</button>
+    <p class="login">Already have an account <a href="https://www.kofc.org/en//index.html"><em class="link">log in</em></a>
+  </div>
   </div>
 </body>
 </html>
